@@ -37,7 +37,7 @@ const Header = () => {
           noWrap
           className={classes.toolbarTitle}
         >
-          <Link color="inherit" href="/">Roberto Castro</Link>
+          <Link color="inherit" href="/">Rice & Beans</Link>
         </Typography>
       </Toolbar>
     </AppBar>

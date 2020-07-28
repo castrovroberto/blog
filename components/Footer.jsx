@@ -8,7 +8,7 @@ function Copyright() {
   return (
     <Typography color="inherit" variant="body2" align="center">
       {'Copyright © '}
-        castrovrob.me
+        Roberto Castro castrovrob.me
       {' '}
       {new Date().getFullYear()}
       {'.'}

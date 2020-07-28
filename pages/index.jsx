@@ -28,7 +28,7 @@ const Index = () => {
       <Container maxWidth="lg" className={classes.container}>
         <Box my={4} display="flex" justifyContent="center">
           <Typography variant="h4" component="h1" gutterBottom>
-            Featured Blog posts
+            Things I find interesting
           </Typography>
         </Box>
         <Grid container spacing={4}>
@@ -37,7 +37,7 @@ const Index = () => {
           ))}
         </Grid>
       </Container>
-      <Footer title="My Blog" description="Hi there, this is my blog!" />
+      <Footer title="Roberto Castro" description="Hi there, this is my blog!" />
     </React.Fragment>
   );
 };
