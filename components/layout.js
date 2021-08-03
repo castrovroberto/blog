@@ -9,6 +9,8 @@ export default function Layout({ children, home }) {
     <div className={styles.container}>
       <Head>
         <link rel="icon" href="/favicon.ico" />
+        <title>Roberto Castro&#39;s Blog</title>
+        <meta property="og:title" content="Roberto Castro&#39;s Blog" key="title" />
         <meta
           name="description"
           content="My personal journey as a developer"
