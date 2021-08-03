@@ -22,7 +22,7 @@ export default function Layout({ children, home }) {
               alt={name}
               className={styles.headerImage}        
             />
-            <h1>{name}'s Blog</h1>
+            <h1>{name}&#39;s Blog</h1>
           </>
         ) : (
           <>
