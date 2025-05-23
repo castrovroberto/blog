@@ -1,5 +1,5 @@
 ---
-title: "Code & Cradles: On Becoming a Dad and Staying Curious"
+title: "Code & Cradles: On Becoming a Dad 👶🏻 and Staying Curious 💻"
 date: 2025-05-23
 layout: post.njk
 tags: [personal, tech, parenting]
