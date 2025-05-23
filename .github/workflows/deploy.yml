@@ -3,8 +3,8 @@ name: Deploy Eleventy Site to Pages
 on:
   push:
     branches:
-      - main # Or your default branch
-  workflow_dispatch: # Allows manual triggering
+      - master
+  workflow_dispatch: 
 
 permissions:
   contents: read
