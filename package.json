@@ -1,23 +1,28 @@
 {
-  "name": "my-blog-temp",
-  "version": "0.1.0",
-  "private": true,
+  "name": "blog",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
   "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/castrovroberto/blog.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/castrovroberto/blog/issues"
+  },
+  "homepage": "https://github.com/castrovroberto/blog#readme",
   "dependencies": {
-    "gray-matter": "^4.0.3",
-    "next": "11.0.1",
-    "react": "17.0.2",
-    "react-dom": "17.0.2",
-    "remark": "^13.0.0",
-    "remark-html": "^13.0.1"
+    "@11ty/eleventy": "^3.1.0",
+    "luxon": "^3.6.1"
   },
   "devDependencies": {
-    "eslint": "7.32.0",
-    "eslint-config-next": "11.0.1"
+    "@11ty/eleventy-plugin-syntaxhighlight": "^5.0.1"
   }
 }
