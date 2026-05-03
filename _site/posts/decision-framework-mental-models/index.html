@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The 10 Mental Models I Use to Make Hard Decisions | Roberto Castro</title>
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+  <header>
+    <div class="site-wrapper">
+      <h1><a href="/">Roberto Castro</a></h1>
+      <nav>
+        <a href="/">Home</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <div class="site-wrapper">
+      <article>
+        <div class="post-header">
+          <h1>The 10 Mental Models I Use to Make Hard Decisions</h1>
+          <p class="post-meta">May 1, 2026</p>
+        </div>
+        <div class="post-content">
+          <p>I used to make important decisions the same way I made unimportant ones — by feel. Gut instinct. Whatever seemed right in the moment. That works fine for lunch. It works terribly for career moves, financial bets, or deciding what to actually build next.</p>
+<p>Over the past year I put together a personal decision framework — a set of 10 mental models borrowed from probability, economics, and cognitive science — that I now run through whenever something genuinely matters. This post is my attempt to explain it clearly enough that you could actually use it.</p>
+<hr>
+<h2>Why mental models?</h2>
+<p>A mental model is just a structured way of looking at a problem. The goal isn't to be robotic — it's to catch the blind spots that emotion and experience create. Your brain is running highly compressed heuristics based on a small, biased sample of lived experience. Mental models are a patch for that.</p>
+<p>I group these 10 models into three phases that mirror how any decision actually unfolds.</p>
+<hr>
+<h2>Phase 1 — Should I even pursue this?</h2>
+<h3>1. Expected Value</h3>
+<p>The math most people skip. List the possible outcomes, assign an honest probability to each, estimate the payoff or cost, then multiply and sum.</p>
+<pre><code>EV = Σ (probability × payoff)
+</code></pre>
+<p>The reason to formalize this: <strong>loss aversion</strong>. Humans feel losses roughly twice as intensely as equivalent gains. Your gut will reject a positive-EV bet because the downside feels too vivid. Running the numbers forces the feeling aside.</p>
+<p>One important guardrail: if the downside is catastrophic — can't pay rent, serious health risk — don't take the bet even when EV is positive. Variance matters when stakes are existential.</p>
+<h3>2. Base Rate</h3>
+<p>Before you evaluate your specific opportunity, ask: <em>how often does this type of thing actually work?</em></p>
+<p>The human tendency is to treat our situation as special. It rarely is. Startups reaching profitability: roughly 6%. Niche developer tools finding real buyers: maybe 35–40%. Any fund beating the market three years running: around 15%. Those numbers should anchor your probability estimates before your optimism inflates them.</p>
+<h3>3. Survivorship Bias</h3>
+<p>You only see the winners. Losers are quiet.</p>
+<p>This is why every category of success looks easier than it is — the people who tried and failed don't write blog posts about it, don't show up in your feed, and don't give conference talks. Your brain builds its model of &quot;how hard is this&quot; from the visible sample, which is systematically skewed toward success.</p>
+<p>Before accepting any success story as evidence of a viable strategy, look for the graveyard. Ask: <em>how many people tried this, and what percentage won?</em> If you can't find the denominator, assume the success rate is low.</p>
+<p>Survivorship bias is also the main reason your internal base rate estimate is almost always too high. Fix the base rate by going looking for the people who failed.</p>
+<hr>
+<h2>Phase 2 — What is my brain hiding from me?</h2>
+<h3>4. Sunk Cost</h3>
+<p>Past investments are gone regardless of your next decision. They are irrelevant.</p>
+<p>This is the trap that keeps people in bad jobs, holding losing positions, and continuing dead projects long past the point of usefulness. The mental move: reset to zero. Ask yourself — <em>if I were starting fresh today, knowing what I know now, would I choose this path?</em> If the answer is no, exit. The past doesn't come back.</p>
+<p>The best version of this model is preventive: set explicit exit checkpoints <em>before</em> you start. Decide the conditions for quitting while you're rational, not when you're emotionally invested.</p>
+<h3>5. Inversion</h3>
+<p>Instead of asking how to succeed, ask how to guarantee failure — then avoid those actions. Charlie Munger popularized this. The original credit goes to mathematician Carl Jacobi: <em>&quot;Invert, always invert.&quot;</em></p>
+<p>The reason it works: the brain is better at spotting dangers than opportunities. Inversion forces a systematic scan for traps before you walk into them.</p>
+<p>Applied example — I was building a side project and wanted $1,500/mo from it. I asked: <em>what would guarantee zero revenue?</em></p>
+<ul>
+<li>Build for three months without talking to a user</li>
+<li>Pick an oversaturated market</li>
+<li>Over-engineer the architecture</li>
+<li>Never publish anything</li>
+</ul>
+<p>That list became my negative checklist. My plan was just &quot;don't do any of these things.&quot;</p>
+<h3>6. Second-Order Thinking</h3>
+<p>First-order thinking solves the immediate problem. Second-order thinking asks what happens as a result of the solution — and what happens after that.</p>
+<p>The mental move: after choosing an action, ask <em>&quot;and then what?&quot;</em> at least twice. Look for unintended consequences, opportunity costs, downstream effects.</p>
+<p>There's a useful heuristic for this called Chesterton's Fence: before removing something that seems useless, understand <em>why it's there</em>. It may be solving a problem you haven't encountered yet.</p>
+<hr>
+<h2>Phase 3 — How do I act on this correctly?</h2>
+<h3>7. Bayesian Updating</h3>
+<p>Every model above runs at <em>compile time</em> — before you commit. This one runs at <em>runtime</em>, after you've committed. It's the feedback loop that tells you when to hold and when to pivot.</p>
+<p>The idea: update beliefs gradually and proportionally as new evidence arrives. Don't ignore evidence. Don't overcorrect to a single data point.</p>
+<p>When something new comes in, ask: <em>how likely is this signal if my belief is true? How likely if it's false?</em> Update proportionally. The trap to avoid is treating every piece of contradicting information as a reason to panic, and every confirming signal as final proof.</p>
+<p>The diagnostic question: <em>if I'm wrong, what would I expect to see? Am I seeing it?</em></p>
+<h3>8. Kelly Criterion</h3>
+<p>Given a bet with positive EV, how much should you commit?</p>
+<pre><code>f* = (p × b − q) / b
+
+p = probability of winning
+q = 1 − p
+b = how much you win per dollar risked
+</code></pre>
+<p>Full Kelly is mathematically optimal but emotionally brutal — the variance will destroy you before the math pays off. In practice, use quarter-Kelly to half-Kelly.</p>
+<p>The model extends well beyond money. Career bets: don't quit your job and go all-in on a side project — reduce your hours and dedicate one focused day per week. Learning: don't try to absorb five skills simultaneously — pick the highest-value one and go deep. Relationships: twenty shallow connections are worth less than four deep ones.</p>
+<p>The right-sizing question: <em>am I committing enough to matter, but not so much that being wrong ruins me?</em></p>
+<h3>9. Pareto Principle</h3>
+<p>80% of outcomes come from 20% of causes. Find the 20% and protect it.</p>
+<p>When I'm overwhelmed — by a feature list, a to-do pile, an interview prep plan — this is the first cut I make. Which one thing, if done well, would produce most of the result? Start there. Everything else either waits or disappears.</p>
+<p>The 20% changes as context changes, so audit it periodically. What was the highest-leverage use of your time last quarter may not be this quarter.</p>
+<h3>10. Ockham's Razor</h3>
+<p>Among competing solutions, prefer the one with the fewest assumptions. Simplicity is a feature, not a compromise.</p>
+<p>This is where I've been burned most as an engineer. The pull toward microservices, event sourcing, clever abstractions — it's real. But a monolith that ships beats a perfect distributed system that doesn't. Build the simple thing first. Complicate only when the problem actually demands it.</p>
+<p>The same applies to decision analysis itself. If you're building a 47-step decision tree for a career choice, you're hiding from the decision, not making it.</p>
+<hr>
+<h2>Running the whole thing</h2>
+<p>For any major decision I run a quick mental pre-flight through all three phases:</p>
+<p><strong>Phase 1:</strong> Did I calculate EV honestly? What's the realistic base rate? Where's the graveyard?</p>
+<p><strong>Phase 2:</strong> Am I holding on because of sunk costs? What would guarantee failure? What are the second-order effects?</p>
+<p><strong>Phase 3:</strong> What's my prior and how will I update it? Am I sizing the bet safely? What's the 20%? What's the simplest path that actually works?</p>
+<p>It takes about ten minutes. For decisions that will affect the next year of your life, that's a good trade.</p>
+<hr>
+<p>The framework isn't magic and it doesn't remove uncertainty. What it does is make your reasoning visible so you can check it — and so future-you can understand why past-you made the call. That audit trail, it turns out, is most of the value.</p>
+<p>If this resonated and you want the full reference — including the model tables, common base rates, and an AI prompt for running a structured decision review — I keep a detailed version in my notes that I'm happy to share.</p>
+
+        </div>
+        <div class="post-footer">
+          <a href="/">← Back to home</a>
+        </div>
+      </article>
+    </div>
+  </main>
+
+  <footer>
+    <div class="site-wrapper">
+      <p>&copy; 2025 Roberto Castro</p>
+    </div>
+  </footer>
+</body>
+</html>

@@ -1,17 +1,27 @@
-<h1>My Blog</h1>
-<p>This is a personal blog built with <a href="https://www.11ty.dev/">Eleventy</a>.</p>
-<h2>Features</h2>
+<h1>Roberto Castro — Personal Blog</h1>
+<p>A personal blog built with <a href="https://www.11ty.dev/">Eleventy</a>.</p>
+<h2>Stack</h2>
 <ul>
-<li>Clean, minimalist design inspired by terminal interfaces.</li>
-<li>Blog posts listed on the homepage.</li>
-<li>Uses Nunjucks for templating.</li>
+<li><strong>Framework:</strong> Eleventy (11ty) v3</li>
+<li><strong>Templating:</strong> Nunjucks</li>
+<li><strong>Styling:</strong> Plain CSS, no frameworks</li>
+<li><strong>Output:</strong> Static HTML</li>
 </ul>
-<h2>Getting Started</h2>
-<ol>
-<li>Clone the repository.</li>
-<li>Install dependencies: <code>npm install</code></li>
-<li>Run the development server: <code>npx eleventy --serve</code></li>
-<li>Open your browser to <code>http://localhost:8080</code> (or the port specified in the console).</li>
-</ol>
+<h2>Development</h2>
+<pre><code class="language-bash">npm install
+npx @11ty/eleventy --serve
+</code></pre>
+<p>Opens at <code>http://localhost:8080</code> with live reload.</p>
+<h2>Writing a post</h2>
+<p>Add a Markdown file to <code>posts/</code> with this front matter:</p>
+<pre><code class="language-markdown">---
+title: Your Post Title
+date: 2025-06-01
+layout: post.njk
+tags: posts
+---
+
+Your content here.
+</code></pre>
 <h2>License</h2>
-<p>This project is licensed under the MIT License - see the <a href="LICENSE">LICENSE</a> file for details.</p>
+<p>MIT</p>

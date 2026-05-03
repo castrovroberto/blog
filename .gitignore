@@ -35,3 +35,5 @@ yarn-error.log*
 
 # Internal project
 project/
+
+claude.session
